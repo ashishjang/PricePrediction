@@ -1,0 +1,129 @@
+.switch-field{
+    display: flex;
+    margin-bottom: 36px;
+    overflow: hidden;
+}
+
+.switch-field input{
+    position: absolute !important;
+    clip: rect(0,0,0,0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+.switch-field label{
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    font-family: "SF Pro Display";
+    line-height: 1px;
+    text-align: center;
+    padding: 8px 16px;
+    border: 1px solid rgba(0,0,0,0.2); 
+    transition: all 0.1s ease-in-out;
+}
+
+.switch-field label:hover{
+    cursor: pointer;
+}
+ 
+.switch-field input:checked +label{
+    background-color:#E7E7E7;
+    box-shadow: none;
+}
+
+.switch-field label:hover{
+    cursor: pointer;
+}
+
+.switch-field label:first-of-type {
+    border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+    border-radius: 0 4px 4px 0;
+}
+
+.form{
+    margin: 8px auto !important;
+    line-height: 1.625;
+    max-width: 270px;
+    font-family: "SF Pro Display";
+    padding-left: 16px;
+    width: 76%;
+    z-index: 2;
+}
+
+.location{
+    font-family: "SF Pro Display";
+    font-weight: 500;
+    outline: 0px;
+    width: 76%;
+    background: white !important;
+    border: 10px;
+    border-color: black;
+    margin: 0 0 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: #555555;
+
+}
+
+.submit{
+    font-family: "SF Pro Display";
+    font-size: 20px;
+    font-weight: 500;
+    background: #E7E7E7;
+    width: 76%;
+    border:none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.submit:hover{
+    background-color: #555555;
+    color: white; 
+    
+}
+
+h2 {
+    font-size:16px;
+    margin-bottom: 8px;
+}
+
+.area {
+    font-family: "SF Pro Display";
+    outline: 0;
+    background: #E7E7E7;
+    width: 76%;
+    border: 0;
+    margin: 0 0 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.result{
+    background: #E7E7E7;
+    width: 76%;
+    border: 0;
+    margin: 25px 0 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 70px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+body, html {
+    height: 100%
+}
